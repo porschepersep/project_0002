@@ -18,7 +18,7 @@
     <div class="container">
 
         <div class="card mt-5">
-            <h5 class="card-header">W-2 Wage and Tax Statement</h5>
+            <h5 class="card-header">W-2</h5>
             <div class="card-body">
 
                 <form class="row g-3">
@@ -27,7 +27,7 @@
 
                         <div class="card">
 
-                            <div class="card-header">22222</div>
+                            <div class="card-header"></div>
 
                             <div class="card-body">
 
@@ -74,28 +74,40 @@
 
                     </div>
 
-                    <form class="row g-3">
-                        <div class="col-md-6">
-                            <label for="inputEmail4" class="form-label">b. Employer identification number (EIN)</label>
-                            <input type="email" class="form-control" id="inputEmail4">
-                        </div>
+                    <div class="col-md-12">
 
-                        <div class="col-md-3">
-                            <label for="inputPassword4" class="form-label">1. Wages, tips, other compensation</label>
-                            <input type="password" class="form-control" id="inputPassword4">
-                        </div>
+                        <div class="card">
+                            <div class="card-header">
+                                Wage and Tax Statement
+                            </div>
+                            <div class="card-body">
 
-                        <div class="col-3">
-                            <label for="inputAddress" class="form-label">2. Federal income tax withheld</label>
-                            <input type="text" class="form-control" id="inputAddress">
-                        </div>
+                                <div class="row">
+
+                                    <div class="col-6 mb-1">
+                                        <label for="inputEin" class="form-label">b. Employer identification number (EIN)</label>
+                                        <input type="text" class="form-control" id="w-2Ein"
+                                            placeholder="EIN" name="w-2_ein">
+                                    </div>
+
+                                    <div class="col-3 mb-1">
+                                        <label for="inputEin" class="form-label">1. Wages, tips, other</label>
+                                        <input type="text" class="form-control" id="w-2Wages"
+                                            placeholder="$0.00" name="w-2_wages" style="text-align:center;"></td>
+                                    </div>
+
+                                    <div class="col-3 mb-1">
+                                        <label for="inputEin" class="form-label">2. Federal income tax withheld</label>
+                                        <input type="text" class="form-control" id="w-2Ein"
+                                            placeholder="EIN" name="w-2_ein">
+                                    </div>
 
                         <div class="col-6">
                             <label for="inputAddress2" class="form-label">c. Employer name, address, and ZIP
                                 code</label>
-                            <textarea name="employer_name_address_and_zip_code" id="employerNameAndZipCode" cols="5"
-                                rows="4" class="form-control"></textarea>
-                        </div>
+                                <input type="text" class="form-control" id="inputAddress"form-control="c. Employer name, address, and ZIP
+                                code">
+                            </div>
 
                         <div class="col-md-3">
                             <label for="inputCity" class="form-label">3.Social security wages</label>
@@ -107,13 +119,23 @@
                             <input type="text" class="form-control" id="inputCity">
                         </div>
 
-                        <div class="col-md-6">
+                        <div class="col-md-3">
                             <label for="inputZip" class="form-label">5. Medicare wages and tips</label>
                             <input type="text" class="form-control" id="inputZip">
                         </div>
 
-                        <div class="col-6">
-                            <label for="inputZip" class="form-label">5. Medicare wages and tips</label>
+                        <div class="col-3">
+                            <label for="inputZip" class="form-label">6. Medicare tax withheld</label>
+                            <input type="text" class="form-control" id="inputZip">
+                        </div>
+
+                        <div class="col-3">
+                            <label for="inputZip" class="form-label">7. Social security tips</label>
+                            <input type="text" class="form-control" id="inputZip">
+                        </div>
+
+                        <div class="col-3">
+                            <label for="inputZip" class="form-label">8. Allocated tips</label>
                             <input type="text" class="form-control" id="inputZip">
                         </div>
 
